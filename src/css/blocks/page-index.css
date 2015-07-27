@@ -1,0 +1,70 @@
+.features {
+	font-size: 0;
+	margin-top: 43px;
+}
+
+.features__column {
+	display: inline-block;
+	width: 33%;
+	box-sizing: border-box;
+	padding-right: 45px;
+	vertical-align: top;
+}
+
+.article-preview__header {
+	padding-left: 70px;
+	position: relative;
+}
+
+.article-preview__header::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.article-preview__header--works::before {
+	background: url("../i/icon-wheel.png") no-repeat left center;
+}
+
+.article-preview__header--services::before {
+	background: url("../i/icon-check.png") no-repeat left center;
+}
+
+.article-preview__header--social::before {
+	background: url("../i/icon-man.png") no-repeat left center;
+}
+
+.article-preview__header h2 {
+	margin: 0;
+	padding: 0;
+	color:  #e8663c;
+	line-height: 24px;
+}
+
+.article-preview__text {
+	margin-top: 38px;
+}
+
+.article-preview__text p {
+	color:  #414141;
+	line-height: 18px;
+}
+
+.article-preview__footer {
+	margin-top: 20px;
+}
+
+.more-button {
+	color:  #ffffff;
+	background-color: #e8663c;
+	padding: 9px 15px;
+}
+
+.more-button:hover {
+	background-color: #f3af9d;
+}

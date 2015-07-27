@@ -1,0 +1,21 @@
+{
+  "name": "jetro",
+  "version": "1.0.0",
+  "description": "project template",
+  "author": "ophyros",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer-core": "latest",
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-postcss": "latest",
+    "gulp-rename": "latest",
+    "gulp-rigger": "latest",
+    "gulp-watch": "latest",
+    "imagemin-pngquant": "latest",
+    "postcss-import": "latest",
+    "rimraf": "latest"
+  }
+}

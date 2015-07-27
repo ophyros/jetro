@@ -1,0 +1,36 @@
+.recent-works {
+	margin-top: 46px;
+	margin-bottom: 48px;
+	font-size: 0;
+}
+
+.recent-works__header {
+	display: table;
+	margin: 0;
+}
+
+.recent-works__header h2 {
+	font-family: Bebas, sans-serif;
+	color:  #e8603c;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	display: table-cell;
+	width: 1%;
+	padding-right: 20px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.recent-works__header::after {
+	content: "";
+	width: 99%;
+	background: url("../i/line.png") repeat left top;
+	display: table-cell;
+	height: 19px;
+}
+
+.recent-works__container {
+	margin-top: 25px;
+}

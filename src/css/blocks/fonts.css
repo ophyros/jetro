@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/bebas-webfont.eot');
+    src: url('../fonts/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas-webfont.woff2') format('woff2'),
+         url('../fonts/bebas-webfont.woff') format('woff'),
+         url('../fonts/bebas-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'helveticaneue';
+    src: url('../fonts/helveticaneue-webfont.eot');
+    src: url('../fonts/helveticaneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-webfont.ttf') format('truetype');
+}
+
+.font--bebas--12 {
+	font-family: Bebas, sans-serif;
+	font-size: 12px;
+}
+
+.font--bebas--14 {
+	font-family: Bebas, sans-serif;
+	font-size: 14px;
+}
+
+.font--bebas--16 {
+	font-family: Bebas, sans-serif;
+	font-size: 16px;
+}
+
+.font--bebas--18 {
+	font-family: Bebas, sans-serif;
+	font-size: 18px;
+}
+
+.font--bebas--20 {
+	font-family: Bebas, sans-serif;
+	font-size: 20px;
+}
+
+.font--bebas--24 {
+	font-family: Bebas, sans-serif;
+	font-size: 24px;
+}
+
+.font--bebas--36 {
+	font-family: Bebas, sans-serif;
+	font-size: 36px;
+}
+
+.font--helvetica--12 {
+	font-family: HelveticaNeue, sans-serif;
+	font-size: 12px;
+}
+
+.font--helvetica--14 {
+	font-family: HelveticaNeue, sans-serif;
+	font-size: 14px;
+}

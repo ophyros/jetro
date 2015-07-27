@@ -1,0 +1,21 @@
+.page-portfolio-item {
+	margin: 0 auto;
+	width: 940px;
+	margin-top: 24px;
+}
+
+.article__text {
+	margin-top: 24px;
+	margin-bottom: 50px;
+}
+
+.article__text p {
+	color:  #414141;
+	line-height: 18px;
+}
+
+.article__image {
+	width: 940px;
+	height: 400px;
+	overflow: hidden;
+}

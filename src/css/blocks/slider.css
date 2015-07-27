@@ -1,0 +1,136 @@
+.slider {
+	width: 940px;
+	height: 540px;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
+
+.slider__container {
+	height: 400px;
+}
+
+.slider__slide {
+	height: 400px;
+	position: relative;
+}
+
+.slider__slide--1 {
+	background: url("../i/slider1.jpg") no-repeat center center;
+}
+
+.slider__slide--2 {
+	background: url("../i/slider2.jpg") no-repeat center center;
+}
+
+.slider__slide--3 {
+	background: url("../i/slider1.jpg") no-repeat center center;
+}
+
+.slider__slide--4 {
+	background: url("../i/slider2.jpg") no-repeat center center;
+}
+
+.slider__slide--5 {
+	background: url("../i/slider1.jpg") no-repeat center center;
+}
+
+.slider__slide--6 {
+	background: url("../i/slider2.jpg") no-repeat center center;
+}
+
+.slide__textblock {
+	position: absolute;
+	display: block;
+	width: 415px;
+	padding: 22px 19px 25px 29px;
+	left: 36px;
+	bottom: 31px;
+	background-color: rgba(232, 102, 60, 0.8);
+	white-space: normal;
+}
+
+.slide__textblock span {
+	font-family: Bebas, sans-serif;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.slide__textblock p {
+	font-family: HelveticaNeue, sans-serif;
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.slider__control {
+	width: 22px;
+	height: 22px;
+	border: 14px solid rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 150px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.slider__control--left {
+	left: 26px;
+	transform: rotate(-45deg);
+	border-bottom: none;
+	border-right: none;
+}
+
+.slider__control--right {
+	right: 26px;
+	transform: rotate(45deg);
+	border-bottom: none;
+	border-left: none;
+}
+
+.slider__thumbs {
+	margin-top: 18px;
+	height: 120px;
+}
+
+.slider__thumb {
+	width: 140px;
+	height: 120px;
+	border: 1px solid rgba(232, 96, 60, 0.5);
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.slider__thumb:last-child {
+	margin-right: 0;
+}
+
+.slider__thumb--active {
+	border-width: 3px;
+}
+
+.slider__thumb--1 {
+	background: url("../i/slide-thumb1.jpg") no-repeat center center;
+}
+
+.slider__thumb--2 {
+	background: url("../i/slide-thumb2.jpg") no-repeat center center;
+}
+
+.slider__thumb--3 {
+	background: url("../i/slide-thumb3.jpg") no-repeat center center;
+}
+
+.slider__thumb--4 {
+	background: url("../i/slide-thumb1.jpg") no-repeat center center;
+}
+
+.slider__thumb--5 {
+	background: url("../i/slide-thumb2.jpg") no-repeat center center;
+}
+
+.slider__thumb--6 {
+	background: url("../i/slide-thumb3.jpg") no-repeat center center;
+}

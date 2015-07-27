@@ -1,0 +1,33 @@
+.page__header {
+	background-color:  rgba(232, 96, 60, 0.5);
+}
+
+.page__header--index {
+	background-image: -webkit-linear-gradient(top, rgba(232, 96, 60, 0.5) 60px, #fff 60px);
+	background-image: linear-gradient(to bottom, rgba(232, 96, 60, 0.5) 60px, #fff 60px);
+}
+
+.page__header h2 {
+	color:  #ffffff;
+	padding: 20px;
+	margin: 0 auto;
+	background-color:  #e8603c;
+	width: 960px;
+	box-sizing: border-box;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+
+.page__wrapper {
+	width: 940px;
+	margin: 25px auto;
+}
+
+.page__body {
+	width: 100%;
+}
+
+.page__body--with-side-menu {
+	float: left;
+	width: 675px;
+}

@@ -1,0 +1,20 @@
+@import libs/normalize.css;
+@import libs/swiper.min.css;
+
+
+@import blocks/fonts.css;
+@import blocks/common.css;
+@import blocks/site-header.css;
+@import blocks/site-footer.css;
+@import blocks/page.css;
+@import blocks/page-index.css;
+@import blocks/page-about.css;
+@import blocks/page-blog.css;
+@import blocks/page-contacts.css;
+@import blocks/page-portfolio.css;
+@import blocks/page-portfolio-item.css;
+@import blocks/side-menu.css;
+@import blocks/recent-works.css;
+@import blocks/slider.css;
+@import blocks/work-preview.css;
+

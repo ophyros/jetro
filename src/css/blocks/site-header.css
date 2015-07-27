@@ -1,0 +1,56 @@
+.site-header {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.site-header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.site-logo {
+	font-family: Bebas, sans-serif;
+	font-size: 36px;
+	float: left;
+	margin: 0;
+	line-height: 80px;
+}
+
+.site-logo--darkred {
+	color:  #e8603c;
+}
+
+.site-logo--lightred {
+	color:  #f3af9d;
+}
+
+.site-menu {
+	float: right;
+}
+
+.menu {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.menu__item {
+	display: inline-block;
+}
+
+.menu__link {
+	color:  #b9b9b9;
+	text-decoration: none;
+	padding: 0 14px;
+	line-height: 80px;
+}
+
+.menu__link--active {
+	color: #e8663c;
+}
+
+.menu__link:hover {
+	color:  #f3af9d;
+}

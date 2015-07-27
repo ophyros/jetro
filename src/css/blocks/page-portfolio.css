@@ -1,0 +1,39 @@
+.page-portfolio {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.portfolio__works {
+	font-size: 0;
+	padding-bottom: 5px;
+}
+
+.portfolio-filter {
+	margin: 36px 0;
+}
+
+.filter {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter__item {
+	display: inline-block;
+	padding: 0;
+	margin-right: 5px;
+}
+
+.filter__link {
+	padding: 8px 10px;
+	color:  #b9b9b9;
+}
+
+.filter__link:hover {
+	text-decoration: underline;
+}
+
+.filter__link--active {
+	color:  #ffffff;
+	background-color: #e8663c;
+}
